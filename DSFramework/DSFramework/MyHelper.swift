@@ -33,5 +33,10 @@ public class MyHelper {
             }
         }
     }
+    
+    public static func getVersion() -> String {
+        return "1.0.0"
+        
+    }
 
 }
