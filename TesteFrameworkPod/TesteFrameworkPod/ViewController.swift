@@ -8,7 +8,6 @@
 
 import UIKit
 import DSPFramework
-import Alamofire
 
 class ViewController: UIViewController {
     
