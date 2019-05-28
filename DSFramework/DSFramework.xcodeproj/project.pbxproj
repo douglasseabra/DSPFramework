@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		22D1C715229D5941000ACBBD /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22D1C714229D5941000ACBBD /* Alamofire.framework */; };
+		22D1C716229D5AFA000ACBBD /* Alamofire.framework in Resources */ = {isa = PBXBuildFile; fileRef = 22D1C714229D5941000ACBBD /* Alamofire.framework */; };
 		BD105C11229C55F400B0D46A /* DSFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD105C07229C55F400B0D46A /* DSFramework.framework */; };
 		BD105C16229C55F400B0D46A /* DSFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD105C15229C55F400B0D46A /* DSFrameworkTests.swift */; };
 		BD105C18229C55F400B0D46A /* DSFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = BD105C0A229C55F400B0D46A /* DSFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -24,6 +26,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		22D1C714229D5941000ACBBD /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "../../../Library/Developer/Xcode/DerivedData/DSPFramework-dqxmvxxnibuklodtooiduybojxys/Build/Products/Debug/Alamofire.framework"; sourceTree = "<group>"; };
 		BD105C07229C55F400B0D46A /* DSFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DSFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD105C0A229C55F400B0D46A /* DSFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSFramework.h; sourceTree = "<group>"; };
 		BD105C0B229C55F400B0D46A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -38,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22D1C715229D5941000ACBBD /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,12 +56,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		22D1C702229D5306000ACBBD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22D1C714229D5941000ACBBD /* Alamofire.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BD105BFD229C55F300B0D46A = {
 			isa = PBXGroup;
 			children = (
 				BD105C09229C55F400B0D46A /* DSFramework */,
 				BD105C14229C55F400B0D46A /* DSFrameworkTests */,
 				BD105C08229C55F400B0D46A /* Products */,
+				22D1C702229D5306000ACBBD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -181,6 +194,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22D1C716229D5AFA000ACBBD /* Alamofire.framework in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

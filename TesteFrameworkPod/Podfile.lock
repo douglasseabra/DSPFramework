@@ -1,0 +1,24 @@
+PODS:
+  - Alamofire (5.0.0-beta.6)
+  - DSPFramework (1.0.0):
+    - Alamofire (~> 5.0.0-beta.6)
+
+DEPENDENCIES:
+  - Alamofire
+  - DSPFramework (from `../DSFramework`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+
+EXTERNAL SOURCES:
+  DSPFramework:
+    :path: "../DSFramework"
+
+SPEC CHECKSUMS:
+  Alamofire: cd08a4402bd12cacd0c66f23fb12fec8d6b965e4
+  DSPFramework: 5d6f46f1032f7c2b2e6846a1e1ca09e0b43868ab
+
+PODFILE CHECKSUM: d5180d07e5e1e2e8d4b48ed400571b3f34492467
+
+COCOAPODS: 1.5.3

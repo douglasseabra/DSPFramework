@@ -24,4 +24,6 @@ Pod::Spec.new do |s|
   s.source = { :git => 'https://github.com/douglasseabra/DSPFramework.git', :tag => "1.0.0"}
   s.source_files = 'DSFramework/**'
 
+  s.dependency 'Alamofire', '~> 5.0.0-beta.6'
+
 end

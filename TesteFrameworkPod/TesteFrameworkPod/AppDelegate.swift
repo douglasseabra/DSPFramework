@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  TestFramework
+//  TesteFrameworkPod
 //
-//  Created by Douglas Seabra on 27/05/19.
-//  Copyright © 2019 Douglas Seabra. All rights reserved.
+//  Created by Douglas Seabra Pedrosa on 28/05/19.
+//  Copyright © 2019 Douglas Seabra Pedrosa. All rights reserved.
 //
 
 import UIKit
