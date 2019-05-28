@@ -32,8 +32,6 @@ public class MyHelper {
                 calback(utf8Text)
             }
         }
-        
-    
     }
 
 }
